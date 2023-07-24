@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="C346BDA4-2959-7FA1-73FC-2AF5A8AB819D">
+<createdBy>Ayln</createdBy>
+<modifiedBy>Ayln</modifiedBy>
+<createdTime>2023-07-17 18:25:53 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="14059D24-3E61-53A1-18AF-3CDF9B95A2AD" otype="Entity" vid="63C40F30-79F8-84A8-5071-758A2D2999FE">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="38" y="309" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1929F3CE-212B-E7F9-6006-2A64B574CF96" otype="Entity" vid="A8813EAE-00D1-853F-B9F3-E412244B524D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="756" y="12" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="2E79491A-0E0A-7034-EC8F-FE94020EAC83" otype="Entity" vid="9D0C18BD-AC88-771B-0740-80A9E9A0D56A">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="591" y="170" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="346329E8-23E5-A2EE-4566-BE065DAF950D" otype="Entity" vid="A09BD1B3-C64B-9258-44FB-2365B6338C60">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="716" y="301" width="141" height="136"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="6F57C091-9DA3-CC8E-3C34-6591BEB7A09C" otype="Entity" vid="CF1986D7-DAE7-BE52-6CA8-04BEBF70C9C1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="45" y="176" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="72FCBCE4-2033-54EF-4CD3-F9C514228BA6" otype="Entity" vid="B1CE876F-0AE5-9269-A70E-19D99031D8B0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="778" y="163" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="733A36E2-6599-F66E-AC03-0031B8EE61A1" otype="Entity" vid="D3AFB39E-515D-8B0E-BBCA-1C6D6C88C932">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="353" y="296" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="874BCFC1-BD94-6097-9CD5-C6EED9670EE0" otype="Entity" vid="8C20B55C-DCC3-1A05-9CF7-BBA7035E59F0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="589" y="0" width="154" height="149"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BE21684C-3196-2561-A787-EDA09DE58313" otype="Entity" vid="8D6F3282-1709-004A-754A-13597CDFF795">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1016" y="88" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DD42449B-4343-810D-3AC5-BF180553239C" otype="Entity" vid="5BB4F04B-8A01-E395-423E-403F291957D6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="289" y="17" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="E01AD7AE-264B-34AC-FC8F-6F2E06877B96" otype="Entity" vid="83C475E9-EA0F-1C7E-3CE7-C1E1DECDC186">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="32" y="25" width="178" height="113"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="EED26BFA-1DE9-FDE9-734B-F2D1FA26129E" otype="Entity" vid="9A9B6673-79DB-83EF-10FD-19EC75B5C342">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="248" y="149" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>
