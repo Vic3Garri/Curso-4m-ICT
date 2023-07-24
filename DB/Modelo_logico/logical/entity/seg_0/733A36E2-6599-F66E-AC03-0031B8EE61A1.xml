@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="733A36E2-6599-F66E-AC03-0031B8EE61A1" name="Curso">
+<createdBy>Ayln</createdBy>
+<createdTime>2023-07-19 18:56:26 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Curso" id="FA33224B-F828-DDCB-454F-43134F4D5BB2">
+<createdBy>Ayln</createdBy>
+<createdTime>2023-07-19 18:58:00 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_Curso" id="01DE09BB-EE26-15F9-2C74-B7351E9FA96E">
+<createdBy>Ayln</createdBy>
+<createdTime>2023-07-19 18:56:31 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sigla_Curso" id="31DEF0F7-E88B-4661-20A0-FDDDC1CB26FC">
+<createdBy>Ayln</createdBy>
+<createdTime>2023-07-19 18:57:07 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48E2AF3F-C917-E4B9-5FCE-7840EB15DE8D" name="Curso PK">
+<createdBy>Ayln</createdBy>
+<createdTime>2023-07-19 18:57:06 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA33224B-F828-DDCB-454F-43134F4D5BB2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
