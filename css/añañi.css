@@ -1,4 +1,32 @@
 body{
+
+	background-image: linear-gradient(rgb(26, 146, 255), rgba(255,255,255,0.8)),url(../fondos/logo.png);
+	background-position: center;
+	background-repeat:no-repeat;
+}
+.caca{
+	width: 80%;
+	height: 50%;
+	position: relative;
+	left: 150;
+}
+.menu{	
+	position: relative;
+	background-color: rgb(26, 146, 255);
+	padding: 1%;
+	width: 110%;
+	right: 30px;
+}
+a{
+	padding:50px ;
+}
+.futer{	
+	position:relative;
+	top:unset;
+	right: 30px;
+	background-color: rgb(26, 146, 255);
+	height: 9.6%;
+	width: 110%;
 	background-image: linear-gradient(rgba(255, 165, 30, 0.733), rgba(255,255,255,0.8)), url(C:/Users/Alumno14/Documents/proyecto/fondos/logo.png);
 }
 
