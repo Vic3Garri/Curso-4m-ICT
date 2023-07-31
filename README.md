@@ -22,6 +22,7 @@ Sitio creado integramente por los estudiantes de 4to año medio generación 2023
   - Maximiliano Morales
   - Ángel Pérez
   - Renato Céspedes
+  - Joaquín Ávalos
 - Backend
   - Javier Pulgar
   - Alan Saldaña
@@ -29,8 +30,7 @@ Sitio creado integramente por los estudiantes de 4to año medio generación 2023
   - Alex Carrasco
   - Camilo Céspedes
   - Javier Herrera
-  - Mathias Herrera
-  - Joaquín Ávalos
+  - Mathias Herrera  
   - José Galleguillos
   - Matias Peralta
   - Pablo Peralta
