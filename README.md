@@ -22,7 +22,7 @@ Sitio creado integramente por los estudiantes de 4to año medio generación 2023
   - Maximiliano Morales
   - Ángel Pérez
   - Renato Céspedes
-  - - Joaquín Ávalos
+  - Joaquín Ávalos
 - Backend
   - Javier Pulgar
   - Alan Saldaña
