@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, sans-serif;
 }
 
@@ -18,7 +17,6 @@ header {
 }
 
 .menu_inicio {
-
     list-style: none;
     display: flex;
     margin: 0;
@@ -40,7 +38,8 @@ header {
 
 .h1_inicio {
     color: #333;
-    margin-top: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .p_inicio {
@@ -49,13 +48,10 @@ header {
 
 footer {
     background-color: #3254d1;
-    padding: 10px;
 	width: max-content;
 	width: 100%;
     text-align: center;
     color: white;
-	position: absolute;
-
 }
 
 .menu_footer {
