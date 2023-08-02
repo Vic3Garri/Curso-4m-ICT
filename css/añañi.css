@@ -1,35 +1,99 @@
-body{
 
-	background-image: linear-gradient(rgb(26, 146, 255), rgba(255,255,255,0.8)),url(../fondos/logo.png);
-	background-position: center;
-	background-repeat:no-repeat;
-}
-.caca{
-	width: 80%;
-	height: 50%;
-	position: relative;
-	left: 150;
-}
-.menu{	
-	position: relative;
-	background-color: rgb(26, 146, 255);
-	padding: 1%;
-	width: 110%;
-	right: 30px;
-}
-a{
-	padding:50px ;
-}
-.futer{	
-	position:relative;
-	top:unset;
-	right: 30px;
-	background-color: rgb(26, 146, 255);
-	height: 9.6%;
-	width: 110%;
-	background-image: linear-gradient(rgba(255, 165, 30, 0.733), rgba(255,255,255,0.8)), url(C:/Users/Alumno14/Documents/proyecto/fondos/logo.png);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1{
-text-align: center;
+header {
+    background-color: #3254d1;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+header nav{
+    background-color: #3254d1;
+    overflow:hidden;
+    width: 100%;
+  }
+  header nav ul{
+    list-style: none;
+  
+  }
+  header nav ul li{
+    float:left;
+   
+  }
+  header nav ul li a{
+    padding:10px 20px;
+    display:block;
+    color:#ffffff;
+    text-decoration: none;
+  }
+  header nav ul li a:hover{
+    background:gray;
+  }
+
+.Logotipo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu {
+
+    list-style: none;
+    display: left;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.h1_inicio {
+    color: #333;
+    margin-top: 20px;
+}
+
+.p_inicio {
+    color: #666;
+}
+
+footer {
+    background-color: #3254d1;
+    padding: 10px;
+	width: max-content;
+	width: 100%;
+    text-align: center;
+    color: white;
+	position: absolute;
+
+}
+
+.menu_footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 0;
+}
+
+.menu_footer li {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
