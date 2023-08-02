@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -14,28 +12,27 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-header nav{
+
+ nav{
     background-color: #3254d1;
     overflow:hidden;
     width: 100%;
-  }
-  header nav ul{
-    list-style: none;
-  
-  }
-  header nav ul li{
+}
+
+ li{
     float:left;
-   
-  }
-  header nav ul li a{
+}
+
+ a{
     padding:10px 20px;
     display:block;
     color:#ffffff;
     text-decoration: none;
-  }
-  header nav ul li a:hover{
+}
+
+ a:hover{
     background:gray;
-  }
+}
 
 .Logotipo img {
     width: 100px;
@@ -43,24 +40,10 @@ header nav{
 }
 
 .menu {
-
     list-style: none;
     display: left;
     margin: 0;
     padding: 0;
-}
-
-.menu li {
-    margin-right: 20px;
-}
-
-.menu li:last-child {
-    margin-right: 0;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
 }
 
 .h1_inicio {
@@ -75,25 +58,10 @@ header nav{
 footer {
     background-color: #3254d1;
     padding: 10px;
-	width: max-content;
-	width: 100%;
-    text-align: center;
-    color: white;
-	position: absolute;
-
-}
-
-.menu_footer {
-    list-style: none;
+    color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
-    margin: 10px;
-    padding: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu_footer li {
-    margin-right: 20px;
-    color: white;
-    text-decoration: none;
-}
 
