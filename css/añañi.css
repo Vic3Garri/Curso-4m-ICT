@@ -93,13 +93,6 @@ footer {
 
 .menu_footer li {
     margin-right: 20px;
-}
-
-.menu_footer li:last-child {
-    margin-right: 0;
-}
-
-.menu_footer a {
     color: white;
     text-decoration: none;
 }
