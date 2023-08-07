@@ -1,3 +1,7 @@
+
+/* 
+ CSS DE INICIO
+*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,32 +10,60 @@ body {
 header {
     background-color: #3254d1;
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+header nav{
+    background-color: #3254d1;
+    overflow:hidden;
+    width: 100%;
+  }
+  header nav ul{
+    list-style: none;
+  
+  }
+  header nav ul li{
+    float:left;
+   
+  }
+  header nav ul li a{
+    padding:10px 20px;
+    display:block;
+    color:#ffffff;
+    text-decoration: none;
+  }
+  header nav ul li a:hover{
+    background:gray;
+  }
 
 .Logotipo img {
     width: 100px;
     height: auto;
 }
 
+<<<<<<< HEAD
 .menu_inicio {
+=======
+.menu {
+
+>>>>>>> 164bcf624d7083420e5d2592cf751c7eebc425fc
     list-style: none;
-    display: flex;
+    display: left;
     margin: 0;
     padding: 0;
 }
 
-.menu_inicio li {
+.menu li {
     margin-right: 20px;
 }
 
-.menu_inicio li:last-child {
+.menu li:last-child {
     margin-right: 0;
 }
 
-.menu_inicio a {
+.menu a {
     color: white;
     text-decoration: none;
 }
@@ -64,13 +96,16 @@ footer {
 
 .menu_footer li {
     margin-right: 20px;
-}
-
-.menu_footer li:last-child {
-    margin-right: 0;
-}
-
-.menu_footer a {
     color: white;
     text-decoration: none;
 }
+
+/* 
+ CSS DE GALERIA
+*/
+
+.h1_galeria{
+    text-align: center;
+     
+}
+
