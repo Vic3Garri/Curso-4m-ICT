@@ -2,6 +2,19 @@
 /* 
  CSS DE INICIO
 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-bottom: 20px;
+}
+
+.Logotipo, .menu{
+    margin-bottom: 20px;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -42,14 +55,7 @@ header nav{
 .Logotipo img {
     width: 100px;
     height: auto;
-    position: fixed;
-}
 
-.menu_inicio {
-    list-style: none;
-    display: left;
-    margin: 0;
-    padding: 0;
 }
 
 .menu li {
@@ -82,8 +88,13 @@ footer {
     background-color: #3254d1;
 	width: max-content;
 	width: 100%;
-    text-align: center;
-    color: white;
+    padding: 10px;
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   grid-template-columns: repeat(4,100px);
+   gap: 20px;
+   
 }
 .youtube{
     width: 50px;
@@ -91,15 +102,68 @@ footer {
 
    text-align: center;
    cursor: pointer;
-   background-image: url('https://icones.pro/wp-content/uploads/2021/02/youtube-logo-icone-noir.png');
+   background-image: url('https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_icon_136006.png');
    background-size: cover;
    background-position: center;
    transition: transform 0.3s ease-in-out;
+   transition: background-image 0.3s ease-in-out;
 
 }
 .youtube:hover{
     transform:scale(1.1);
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174883.png') ;
+
 }
+.instagram{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+
+   text-align: center;
+   cursor: pointer;
+   background-image: url('https://cdn-icons-png.flaticon.com/512/747/747393.png');
+   background-size: cover;
+   background-position: center;
+   transition: transform 0.3s ease-in-out;
+}
+.instagram:hover{
+    transform:scale(1.1);
+    background-image: url('https://img.freepik.com/iconos-gratis/instagram_318-566741.jpg');
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+
+   text-align: center;
+   cursor: pointer;
+   background-image: url('https://img.freepik.com/iconos-gratis/gorjeo_318-566817.jpg');
+   background-size: cover;
+   background-position: center;
+   transition: transform 0.3s ease-in-out;
+}
+.twitter:hover{
+    transform:scale(1.1);
+    background-image: url('https://img.freepik.com/iconos-gratis/gorjeo_318-674515.jpg');
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+
+   text-align: center;
+   cursor: pointer;
+   background-image: url('https://cdn3.iconfinder.com/data/icons/glypho-free/64/logo-facebook-512.png');
+   background-size: cover;
+   background-position: center;
+   transition: transform 0.3s ease-in-out;
+}
+.facebook:hover{
+    transform:scale(1.1);
+    background-image: url('https://img.freepik.com/iconos-gratis/facebook_318-187574.jpg');
+}
+
+
+
 
 .menu_footer {
     list-style: none;
@@ -114,17 +178,7 @@ footer {
     color: white;
     text-decoration: none;
 }
-.menu_inicio, .menu, header nav ul{
-    position: fixed;
-    width: 100%;
-    bottom: 91%;
-    background-color: #3254d1;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    justify-content: space-between;
-    align-items: center;
 
-}
 /* 
  CSS DE GALERIA
 */
@@ -133,7 +187,3 @@ footer {
     text-align: center;
      
 }
-
-/*
-CDDYyswhweoh 
-*/
