@@ -42,7 +42,6 @@ header nav{
 .Logotipo img {
     width: 100px;
     height: auto;
-    position: fixed;
 
 }
 
@@ -108,18 +107,7 @@ footer {
     color: white;
     text-decoration: none;
 }
-.menu_inicio, .menu, header nav ul{
-    position: fixed;
-    width: max-content;
-    width: 100%;
-    left: 100px;
-    bottom: 90.56%;
-    background-color: #3254d1;
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    justify-content: space-between;
-    align-items: center;
-}
+
 /* 
  CSS DE GALERIA
 */
