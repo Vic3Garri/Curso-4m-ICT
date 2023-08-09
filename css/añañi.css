@@ -43,13 +43,7 @@ header nav{
     width: 100px;
     height: auto;
     position: fixed;
-}
 
-.menu_inicio {
-    list-style: none;
-    display: left;
-    margin: 0;
-    padding: 0;
 }
 
 .menu li {
@@ -116,14 +110,15 @@ footer {
 }
 .menu_inicio, .menu, header nav ul{
     position: fixed;
+    width: max-content;
     width: 100%;
-    bottom: 91%;
+    left: 100px;
+    bottom: 90.56%;
     background-color: #3254d1;
     padding: 10px;
     color: rgb(255, 255, 255);
     justify-content: space-between;
     align-items: center;
-
 }
 /* 
  CSS DE GALERIA
