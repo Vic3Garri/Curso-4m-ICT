@@ -1,6 +1,6 @@
 
 /* 
- CSS DE INICIO
+CSS DE INICIO
 */
 
 * {
@@ -9,6 +9,7 @@
 }
 p {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .Logotipo, .menu{
@@ -33,24 +34,24 @@ header nav{
     background-color: #3254d1;
     overflow:hidden;
     width: 100%;
-  }
-  header nav ul{
+}
+header nav ul{
     list-style: none;
-  right: 1%;
-  }
-  header nav ul li{
+right: 1%;
+}
+header nav ul li{
     float:left;
-   
-  }
-  header nav ul li a{
+
+}
+header nav ul li a{
     padding:10px 20px;
     display:block;
     color:#ffffff;
     text-decoration: none;
-  }
-  header nav ul li a:hover{
+}
+header nav ul li a:hover{
     background:gray;
-  }
+}
 
 .Logotipo img {
     width: 100px;
@@ -89,24 +90,23 @@ footer {
 	width: max-content;
 	width: 100%;
     padding: 10px;
-   display: grid;
-   justify-content: center;
-   align-content: center;
-   grid-template-columns: repeat(4,100px);
-   gap: 20px;
-   
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4,100px);
+    gap: 20px;
+
 }
 .youtube{
     width: 50px;
     height: 50px;
-
-   text-align: center;
-   cursor: pointer;
-   background-image: url('https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_icon_136006.png');
-   background-size: cover;
-   background-position: center;
-   transition: transform 0.3s ease-in-out;
-   transition: background-image 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('https://cdn.icon-icons.com/icons2/2248/PNG/512/youtube_icon_136006.png');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+    transition: background-image 0.3s ease-in-out;
 
 }
 .youtube:hover{
@@ -118,13 +118,12 @@ footer {
     width: 40px;
     height: 40px;
     margin-top: 5px;
-
-   text-align: center;
-   cursor: pointer;
-   background-image: url('https://cdn-icons-png.flaticon.com/512/747/747393.png');
-   background-size: cover;
-   background-position: center;
-   transition: transform 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/747/747393.png');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
 }
 .instagram:hover{
     transform:scale(1.1);
@@ -134,13 +133,12 @@ footer {
     width: 40px;
     height: 40px;
     margin-top: 5px;
-
-   text-align: center;
-   cursor: pointer;
-   background-image: url('https://img.freepik.com/iconos-gratis/gorjeo_318-566817.jpg');
-   background-size: cover;
-   background-position: center;
-   transition: transform 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('https://img.freepik.com/iconos-gratis/gorjeo_318-566817.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
 }
 .twitter:hover{
     transform:scale(1.1);
@@ -149,13 +147,12 @@ footer {
 .facebook{
     width: 50px;
     height: 50px;
-
-   text-align: center;
-   cursor: pointer;
-   background-image: url('https://cdn3.iconfinder.com/data/icons/glypho-free/64/logo-facebook-512.png');
-   background-size: cover;
-   background-position: center;
-   transition: transform 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/glypho-free/64/logo-facebook-512.png');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
 }
 .facebook:hover{
     transform:scale(1.1);
@@ -180,10 +177,10 @@ footer {
 }
 
 /* 
- CSS DE GALERIA
+CSS DE GALERIA
 */
 
 .h1_galeria{
     text-align: center;
-     
+
 }
