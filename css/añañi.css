@@ -180,7 +180,7 @@ footer {
 CSS DE GALERIA
 */
 
-.h1_galeria{
+.h1_galeria, .h1_inicio, .h1_actividades, .h1_Contactenos {
     text-align: center;
 
 }
