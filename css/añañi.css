@@ -37,7 +37,7 @@ header nav{
 }
 header nav ul{
     list-style: none;
-right: 1%;
+    right: 1%;
 }
 header nav ul li{
     float:left;
@@ -81,6 +81,8 @@ header nav ul li a:hover{
 .p_inicio {
     color: #666;
 }
+
+
 /*
 CSS DEL FOOTER
 */
@@ -159,9 +161,6 @@ footer {
     background-image: url('https://img.freepik.com/iconos-gratis/facebook_318-187574.jpg');
 }
 
-
-
-
 .menu_footer {
     list-style: none;
     display: flex;
@@ -177,10 +176,22 @@ footer {
 }
 
 /* 
-CSS DE GALERIA
+CSS DE TITULOS Y PARRAFOS
 */
 
-.h1_galeria, .h1_inicio, .h1_actividades, .h1_Contactenos {
+.h1_galeria, .h1_inicio, .h1_actividades, .h1_contactanos, .h1_docentes, .h1_especialidad, .h1_historia, .h1_logros {
     text-align: center;
-
+    text-decoration: #000000 underline;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.p_inicio, .p_historia, .p_vision, .p_especialidad, .p_logros, .p_contactanos {
+    margin: auto;
+    width: 1200px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.p_vision{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
