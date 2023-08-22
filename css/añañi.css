@@ -89,8 +89,6 @@ CSS DEL FOOTER
 
 footer {
     background-color: #3254d1;
-	width: max-content;
-	width: 100%;
     padding: 10px;
     display: grid;
     justify-content: center;
