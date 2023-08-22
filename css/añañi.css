@@ -48,15 +48,18 @@ header nav ul li a{
     display:block;
     color:#ffffff;
     text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header nav ul li a:hover{
     background:gray;
+    
 }
 
-.Logotipo img {
+.Logotipo {
     width: 100px;
     height: auto;
-
+    position: relative;
+    top: 10px   ;
 }
 
 .menu li {
