@@ -188,7 +188,7 @@ CSS DE TITULOS Y PARRAFOS
 }
 .p_inicio, .p_historia, .p_vision, .p_especialidad, .p_logros, .p_contactanos {
     margin: auto;
-    width: 1200px;
+    width: 80%;
     text-align: justify;
     padding-bottom: 20px;
 }
