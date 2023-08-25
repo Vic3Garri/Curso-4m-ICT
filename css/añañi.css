@@ -51,8 +51,8 @@ header nav ul li a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header nav ul li a:hover{
-    background:gray;
-    
+    background:rgb(20, 7, 197);
+    border: 1px solid #e4bc0c;
 }
 
 .Logotipo {
@@ -195,4 +195,32 @@ CSS DE TITULOS Y PARRAFOS
 .p_vision{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+/*
+CSS GALERIA
+*/
+.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 21px;
+    border: 1px solid gray;
+    width: 350px;
+    height: 100px;
+    float: left;
+    padding-bottom: 300px;
+    transition: transform 155ms ease-in-out;
+}
+
+.galeria:hover {
+    transform:scale(1.1);
+    border: 1px solid #777;
+}
+
+.galeria img {
+    width: 100%;
+    height: 400px;
+    height: 300px;
 }
