@@ -288,7 +288,7 @@ footer {
     margin-top: 5px;
     text-align: center;
     cursor: pointer;
-    background-image: url('https://img.freepik.com/iconos-gratis/facebook_318-187574.jpg');
+    background-image: url('https://www.lippac.cl/wp-content/uploads/2018/08/icono-sistema-admision.png');
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease-in-out;
@@ -296,6 +296,7 @@ footer {
 .SAE:hover{
     transform:scale(1.1);
 }
+
 
 
 
