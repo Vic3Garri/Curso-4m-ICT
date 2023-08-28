@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1929F3CE-212B-E7F9-6006-2A64B574CF96" name="horario">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:59:33 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="entrada" id="8B970311-2B08-E9F0-A189-A0C417F12ADA">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:59:39 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -30,7 +30,7 @@
 <Attribute name="salida" id="1228CB0D-BBC1-1140-0966-7A62879FBE53">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 19:00:02 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -43,7 +43,7 @@
 <Attribute name="descansos" id="009B3C98-90C9-790B-126A-1E439F16D69F">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 19:00:02 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -56,7 +56,7 @@
 <Attribute name="almuerzo" id="CAAE71B9-BD79-3E89-9137-BEE22AC2155A">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 19:00:02 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -64,6 +64,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Curso" id="3A250F9A-0536-0CBF-20BA-CAC81BC9A166">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 19:24:08 UTC</createdTime>
+<generatorID>91B9C82B-B2EA-55EA-208F-FFD551655745</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<referedAttribute>FA33224B-F828-DDCB-454F-43134F4D5BB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cantidad estudiantes" directorySegmentName="seg_0" id="FA6853F7-2149-215C-01D2-FD071B1E9F43">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 19:13:33 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<sourcePk>48E2AF3F-C917-E4B9-5FCE-7840EB15DE8D</sourcePk>
+<targetPk>ADEC7DF2-29D2-061F-73B3-1EC0FEA2931F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>733A36E2-6599-F66E-AC03-0031B8EE61A1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD42449B-4343-810D-3AC5-BF180553239C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

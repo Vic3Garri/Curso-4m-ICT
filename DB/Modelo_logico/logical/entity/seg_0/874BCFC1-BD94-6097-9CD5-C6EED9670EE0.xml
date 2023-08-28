@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="874BCFC1-BD94-6097-9CD5-C6EED9670EE0" name="Notas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="874BCFC1-BD94-6097-9CD5-C6EED9670EE0" name="Nota">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:45:22 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="Semestre" id="7E5BC846-83F6-5F91-FF5F-823ECCB70A57">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:46:29 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -31,7 +31,7 @@
 <Attribute name="nota1" id="6F6EA76B-0E95-5D44-667B-2EA0A4A3B580">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:45:28 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -45,7 +45,7 @@
 <Attribute name="nota2" id="B2DC6B9F-A01E-64DE-FEA7-77A869BE961A">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:45:45 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -59,7 +59,7 @@
 <Attribute name="nota3" id="A028304E-2154-5C33-FA69-51D824C14923">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:46:02 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -73,7 +73,7 @@
 <Attribute name="nota4" id="FA488A68-4A2B-5BC2-975C-26F0BAD69754">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:46:19 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -88,7 +88,7 @@
 <Attribute name="nota5" id="C0E4038A-CF3B-9190-6AAE-D1CFE5B90369">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:46:24 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -103,7 +103,7 @@
 <Attribute name="nota6" id="BD327D7E-DF45-3A0E-407E-18D509EC7C97">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 18:59:07 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -118,7 +118,7 @@
 <Attribute name="nota7" id="9E1DDF39-5947-0B40-547F-5BB212045C6E">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 18:59:43 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -133,7 +133,7 @@
 <Attribute name="nota8" id="1A35EBA8-3BD8-A417-54C0-228C68204077">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:00:08 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -148,7 +148,7 @@
 <Attribute name="nota9" id="18E8A220-9C32-806A-C24B-CD494BF38569">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:00:11 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -163,7 +163,7 @@
 <Attribute name="nota10" id="289E8584-9AE6-9C49-9F62-365821392815">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:00:12 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -178,7 +178,7 @@
 <Attribute name="nota11" id="A15BBF27-6661-82F2-C832-F1C251476599">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:00:33 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -193,7 +193,7 @@
 <Attribute name="nota12" id="649A035E-F3E4-4E49-9538-F5196361DAE4">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:00:49 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -208,7 +208,7 @@
 <Attribute name="nota13" id="A73F61CE-FA80-2525-F67F-40FF21D1C8BA">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:00:59 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -223,7 +223,7 @@
 <Attribute name="nota14" id="AD0868B5-FF4A-997C-0A26-3359BD6DC83A">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:01:07 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -238,7 +238,7 @@
 <Attribute name="nota15" id="82F38F62-8DA1-682F-52D2-60DF92B84B73">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 19:01:14 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -253,7 +253,7 @@
 <Attribute name="Promedio" id="B05EE1E5-5C68-1A48-ADE1-7DA306539438">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:47:36 UTC</createdTime>
-<ownerDesignName>Proyecto</ownerDesignName>
+<ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
@@ -264,6 +264,35 @@
 <dataTypePrecision>2</dataTypePrecision>
 <dataTypeScale>1</dataTypeScale>
 <ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Alum_codigo" id="3C24D8D8-135A-9C13-45B9-05C8F2193F9A">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 19:19:44 UTC</createdTime>
+<generatorID>30EEE495-7F9D-8B85-6F6A-3FF4108CE595</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<referedAttribute>A2DD6660-0590-A5CF-DD90-E6EE7F47B91E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Curso" id="425D3B8A-55B9-4958-13D9-1708DF40309F">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 19:19:44 UTC</createdTime>
+<generatorID>30EEE495-7F9D-8B85-6F6A-3FF4108CE595</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<referedAttribute>F6F0A7F9-F1AF-C286-D973-B8461F33DD0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
