@@ -215,7 +215,7 @@ footer {
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-template-columns: repeat(5,100px);
+    grid-template-columns: repeat(5,150px);
     gap: 20px; 
     margin-top: 50px;
     width: 100%;
@@ -295,6 +295,25 @@ footer {
 }
 .SAE:hover{
     transform:scale(1.1);
+}
+.contactos{
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+}
+.direccion{
+    width: 205px;
+    height: 100px;
+}
+.numero{
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+}
+.correo{
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
 }
 
 
