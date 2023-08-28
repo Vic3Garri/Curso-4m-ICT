@@ -41,6 +41,50 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Alum_codigo" id="072C004B-C949-CC09-3C6B-A294A9C786B8">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 18:46:34 UTC</createdTime>
+<generatorID>CAD6DD38-A093-3153-7D0B-751FC155BE6D</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<referedAttribute>A2DD6660-0590-A5CF-DD90-E6EE7F47B91E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doc_codigo" id="F099F5DC-9768-10FC-B3AC-C93C945D5C45">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 18:48:37 UTC</createdTime>
+<generatorID>BEBA8A89-005E-BE94-EDFF-38CA0078FC59</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<referedAttribute>D13138BB-93F5-858A-27DF-ADC78A7D435C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Curso" id="5ADD0602-A937-734B-2404-3515AEE91827">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 19:13:33 UTC</createdTime>
+<generatorID>CAD6DD38-A093-3153-7D0B-751FC155BE6D</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<referedAttribute>F6F0A7F9-F1AF-C286-D973-B8461F33DD0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6D0EE383-95E5-17B8-01A2-577882CEA0E2" name="Usuario_admin PK">

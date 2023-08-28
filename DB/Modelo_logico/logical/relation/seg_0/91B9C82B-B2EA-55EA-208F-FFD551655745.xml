@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tiempo curso" directorySegmentName="seg_0" id="91B9C82B-B2EA-55EA-208F-FFD551655745">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-21 19:23:52 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+</engineerTo>
+<targetPk>48E2AF3F-C917-E4B9-5FCE-7840EB15DE8D</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1929F3CE-212B-E7F9-6006-2A64B574CF96</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>733A36E2-6599-F66E-AC03-0031B8EE61A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

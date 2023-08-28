@@ -28,28 +28,19 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="padre-o-tutor" id="82DF1112-AF23-395E-B6A2-A05CB6021A22">
+<Attribute name="Email" id="2AF4C58F-2E12-A57C-4935-AC6BD7996B9D">
 <createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 13:14:38 UTC</createdTime>
+<createdTime>2023-08-21 18:43:02 UTC</createdTime>
+<generatorID>32B5A90E-F240-2B55-9BAD-7BE8CD82B562</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
 <item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
 </engineerTo>
+<referedAttribute>96F685B3-6BC9-AA67-BC5C-05D97FCEAF40</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>300</dataTypeSize>
-<ownDataTypeParameters>300,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Attribute_55" id="25C9B874-880F-C9BD-9D38-49FAE5063FB5">
-<createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 13:15:23 UTC</createdTime>
-<ownerDesignName>Modelo_logico</ownerDesignName>
-<engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
