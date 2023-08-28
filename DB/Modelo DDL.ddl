@@ -2,12 +2,13 @@
 --   en:        2023-08-28 15:57:47 CLT
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
+-- PARA: MYSQL
 
 
 
 CREATE TABLE admin (
     admin_cod           NUMERIC(10) NOT NULL,
-    contraseña_admin    VARCHAR(10) NOT NULL,
+    contrasena_admin    VARCHAR(10) NOT NULL,
     alumno_alum_codigo  NUMERIC(10) NOT NULL,
     docente_doc_codigo  NUMERIC(10) NOT NULL
 );
@@ -30,7 +31,11 @@ CREATE TABLE alumno (
     nombre_apoderado       VARCHAR(200) NOT NULL,
     apoderado_apod_codigo  NUMERIC(10) NOT NULL,
     curso_id_curso         NUMERIC(10) NOT NULL,
+<<<<<<< HEAD
     tipo_c_id_tipo         NUMERIC(10) NOT NULL
+=======
+    cuenta_id_cuenta       NUMERIC(10) NOT NULL
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 );
 
 CREATE UNIQUE INDEX alumno__idx ON
@@ -41,8 +46,12 @@ CREATE UNIQUE INDEX alumno__idx ON
 ALTER TABLE alumno ADD CONSTRAINT alumno_pk PRIMARY KEY ( alum_codigo );
 
 CREATE TABLE apoderado (
+<<<<<<< HEAD
     apod_codigo     NUMERIC(10) NOT NULL,
     tipo_c_id_tipo  NUMERIC(10) NOT NULL
+=======
+    apod_codigo NUMERIC(10) NOT NULL
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 );
 
 CREATE UNIQUE INDEX apoderado__idx ON
@@ -64,20 +73,38 @@ CREATE TABLE asistencia (
     id_asis             NUMERIC(10) NOT NULL,
     asistencia          CHAR(1) NOT NULL,
     dia                 DATE NOT NULL,
+<<<<<<< HEAD
     alumno_alum_codigo  NUMERIC(10) NOT NULL
+=======
+    alumno_alum_codigo  NUMERIC(10) NOT NULL,
+    id_curso            NUMERIC NOT NULL
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 );
 
 ALTER TABLE asistencia ADD CONSTRAINT asistencia_pk PRIMARY KEY ( id_asis );
 
 CREATE TABLE cuenta (
+<<<<<<< HEAD
     id_cuenta       NUMERIC(10) NOT NULL,
     rut             VARCHAR(12) NOT NULL,
     nombre          VARCHAR(100) NOT NULL,
     email           VARCHAR(500) NOT NULL,
-    contraseña      VARCHAR(100) NOT NULL,
+    contrasena      VARCHAR(100) NOT NULL,
     telefono        NUMERIC(15),
     direccion       VARCHAR(500) NOT NULL,
     tipo_c_id_tipo  NUMERIC(10) NOT NULL
+=======
+    id_cuenta              NUMERIC(10) NOT NULL,
+    rut                    VARCHAR(12) NOT NULL,
+    nombre                 VARCHAR(100) NOT NULL,
+    email                  VARCHAR(500) NOT NULL,
+    contrasena             VARCHAR(100) NOT NULL,
+    tipo_cuente            NUMERIC(1) NOT NULL,
+    telefono               NUMERIC(15),
+    direccion              VARCHAR(500) NOT NULL,
+    apoderado_apod_codigo  NUMERIC(10) NOT NULL,
+    cuenta_id              NUMERIC NOT NULL
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 );
 
 ALTER TABLE cuenta ADD CONSTRAINT cuenta_pk PRIMARY KEY ( id_cuenta );
@@ -105,9 +132,15 @@ ALTER TABLE d_asig ADD CONSTRAINT d_asig_pk PRIMARY KEY ( docente_doc_codigo,
                                                           asignatura_id_asig );
 
 CREATE TABLE docente (
+<<<<<<< HEAD
     doc_codigo      NUMERIC(10) NOT NULL,
     descripcion     VARCHAR(200) NOT NULL,
     tipo_c_id_tipo  NUMERIC(10) NOT NULL
+=======
+    doc_codigo        NUMERIC(10) NOT NULL,
+    descripcion       VARCHAR(200) NOT NULL,
+    cuenta_cuenta_id  NUMERIC NOT NULL
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 );
 
 CREATE UNIQUE INDEX docente__idx ON
@@ -174,6 +207,17 @@ CREATE TABLE programas (
 
 ALTER TABLE programas ADD CONSTRAINT programas_pk PRIMARY KEY ( id_prog );
 
+<<<<<<< HEAD
+=======
+CREATE TABLE relation_23 (
+    docente_doc_codigo  NUMERIC(10) NOT NULL,
+    asignatura_id_asig  VARCHAR(10) NOT NULL
+);
+
+ALTER TABLE relation_23 ADD CONSTRAINT relation_23_pk PRIMARY KEY ( docente_doc_codigo,
+                                                                    asignatura_id_asig );
+
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 CREATE TABLE talleres (
     id_tall             NUMERIC(10) NOT NULL,
     nombre              VARCHAR(20) NOT NULL,
@@ -186,7 +230,11 @@ CREATE TABLE talleres (
 
 ALTER TABLE talleres ADD CONSTRAINT talleres_pk PRIMARY KEY ( id_tall );
 
+<<<<<<< HEAD
 CREATE TABLE tiem_clases (
+=======
+CREATE TABLE tiempo_de_clases (
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
     asignatura_id_asig  VARCHAR(10) NOT NULL,
     horario_id_horario  NUMERIC(10) NOT NULL
 );
@@ -276,7 +324,22 @@ ALTER TABLE tiem_clases
 ALTER TABLE tiem_clases
     ADD CONSTRAINT tiem_clases_horario_fk FOREIGN KEY ( horario_id_horario )
         REFERENCES horario ( id_horario );
+/*
 
+<<<<<<< HEAD
+=======
+CREATE SEQUENCE cuenta_cuenta_id_seq START WITH 1 NOCACHE ORDER;
+
+CREATE OR REPLACE TRIGGER cuenta_cuenta_id_trg BEFORE
+    INSERT ON cuenta
+    FOR EACH ROW
+    WHEN ( new.cuenta_id IS NULL )
+BEGIN
+    :new.cuenta_id := cuenta_cuenta_id_seq.nextval;
+END;
+*/
+
+>>>>>>> c60ba97fa12a087e98d655387fba465ddc6c42a6
 
 
 -- Informe de Resumen de Oracle SQL Developer Data Modeler: 
