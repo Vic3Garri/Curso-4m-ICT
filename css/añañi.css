@@ -355,3 +355,42 @@ CSS GALERIA
     height: 400px;
     height: 300px;
 }
+/*
+CSS DESCARGAS(ESPECIALIDAD)
+*/
+.MAPACHE img{
+    width: auto;
+    height: 59px;
+    padding: 10px;
+    right: 7px;
+    position: relative;
+}
+
+.VISUAL img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+.BLUJOTA img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    right: 10px;
+    position: relative;
+}
+
+.PESEPLUS img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+.ul_descargas li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    float: left;
+}
