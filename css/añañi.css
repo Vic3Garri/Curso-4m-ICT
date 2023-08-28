@@ -312,12 +312,17 @@ CSS DE TITULOS Y PARRAFOS
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.p_inicio, .p_historia, .p_vision,.p_mision, .p_especialidad, .p_logros, .p_contactanos {
+.p_inicio, .p_historia, .p_vision,.p_mision, .p_especialidad, .p_logros, .p_contactanos, .introduccion{
     margin: auto;
     width: 80%;
     text-align: justify;
     padding-bottom: 20px;
 }
+
+.introduccion {
+    padding-top: 30px;
+}
+
 .p_vision{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -349,4 +354,43 @@ CSS GALERIA
     width: 100%;
     height: 400px;
     height: 300px;
+}
+/*
+CSS DESCARGAS(ESPECIALIDAD)
+*/
+.MAPACHE img{
+    width: auto;
+    height: 59px;
+    padding: 10px;
+    right: 7px;
+    position: relative;
+}
+
+.VISUAL img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+.BLUJOTA img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    right: 10px;
+    position: relative;
+}
+
+.PESEPLUS img{
+    width: auto;
+    height: 50px;
+    padding: 10px;
+}
+
+.ul_descargas li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    float: left;
 }
