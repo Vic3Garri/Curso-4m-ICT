@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B16550A5-1E2B-3B82-145F-113DD8E48D5B" name="programas">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B16550A5-1E2B-3B82-145F-113DD8E48D5B" name="Programas">
 <createdBy>Alumno02</createdBy>
 <createdTime>2023-08-21 12:38:25 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-08-21 12:38:39 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-08-21 12:39:04 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +46,7 @@
 <createdTime>2023-08-21 12:39:24 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +62,7 @@
 <createdTime>2023-08-21 12:39:03 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

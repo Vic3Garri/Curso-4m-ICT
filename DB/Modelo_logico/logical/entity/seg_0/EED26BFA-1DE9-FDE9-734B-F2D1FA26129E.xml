@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EED26BFA-1DE9-FDE9-734B-F2D1FA26129E" name="Usuario_Apoderado">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EED26BFA-1DE9-FDE9-734B-F2D1FA26129E" name="Apoderado">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 18:30:25 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,28 +20,13 @@
 <createdTime>2023-07-19 18:30:42 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Email" id="2AF4C58F-2E12-A57C-4935-AC6BD7996B9D">
-<createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 18:43:02 UTC</createdTime>
-<generatorID>32B5A90E-F240-2B55-9BAD-7BE8CD82B562</generatorID>
-<ownerDesignName>Modelo_logico</ownerDesignName>
-<engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
-</engineerTo>
-<referedAttribute>96F685B3-6BC9-AA67-BC5C-05D97FCEAF40</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -50,7 +35,7 @@
 <createdTime>2023-07-19 18:31:09 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
