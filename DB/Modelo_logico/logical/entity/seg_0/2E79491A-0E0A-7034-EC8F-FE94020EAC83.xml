@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E79491A-0E0A-7034-EC8F-FE94020EAC83" name="asistencia">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E79491A-0E0A-7034-EC8F-FE94020EAC83" name="Asistencia">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:55:54 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asis" id="5FCA2E06-BFFC-2134-9B45-A4EB7B3EE88F">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 12:47:18 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="asistencia" id="CDDF07C1-98A8-4E8D-61C0-024916E074CD">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:56:03 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +46,7 @@
 <createdTime>2023-08-21 19:06:40 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,14 +59,14 @@
 <generatorID>C53F97D5-F9A4-51BA-ECF8-A750C107740C</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <referedAttribute>A2DD6660-0590-A5CF-DD90-E6EE7F47B91E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_Curso" id="A621FF82-BFD6-3521-A1B1-5BDAA33CD6A4">
 <createdBy>Alumno02</createdBy>
@@ -61,7 +74,7 @@
 <generatorID>C53F97D5-F9A4-51BA-ECF8-A750C107740C</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <referedAttribute>F6F0A7F9-F1AF-C286-D973-B8461F33DD0C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,11 +89,11 @@
 <createdTime>2023-08-21 19:07:47 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>511DB80B-F4F8-55E5-1FAA-CEC0581E307F</attributeRef>
+<attributeRef>5FCA2E06-BFFC-2134-9B45-A4EB7B3EE88F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

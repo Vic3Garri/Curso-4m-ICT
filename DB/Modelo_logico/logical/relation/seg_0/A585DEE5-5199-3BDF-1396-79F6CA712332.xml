@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipo apoderado" directorySegmentName="seg_0" id="32B5A90E-F240-2B55-9BAD-7BE8CD82B562">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cuenta_apod" directorySegmentName="seg_0" id="A585DEE5-5199-3BDF-1396-79F6CA712332">
 <createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 18:43:02 UTC</createdTime>
+<createdTime>2023-08-28 13:10:05 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
-<sourcePk>3AD7F1FF-EDE5-C732-C848-5A09E0ADFB04</sourcePk>
+<sourcePk>50EB195E-A90C-2716-3A18-62250DC7716D</sourcePk>
 <targetPk>375A0EFC-B355-DA31-4149-35ADA9910654</targetPk>
-<arc>203F58D1-09B4-ED35-6F40-9A917ABD4737</arc>
+<arc>CB533055-F6E1-B94A-EECB-BD3A1A394F92</arc>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E01AD7AE-264B-34AC-FC8F-6F2E06877B96</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

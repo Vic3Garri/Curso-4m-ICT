@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD42449B-4343-810D-3AC5-BF180553239C" name="Usuario_Alumno">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD42449B-4343-810D-3AC5-BF180553239C" name="Alumno">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-19 18:21:48 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-07-19 18:22:03 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-07-19 18:24:50 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +46,7 @@
 <createdTime>2023-07-19 18:25:45 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,35 +54,20 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Email" id="966BF45B-F303-4B83-1E3F-C4E9EBBA9C8C">
-<createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 18:44:38 UTC</createdTime>
-<generatorID>79079D8F-F459-A8DC-CF43-0D4B0697E7A4</generatorID>
-<ownerDesignName>Modelo_logico</ownerDesignName>
-<engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
-</engineerTo>
-<referedAttribute>96F685B3-6BC9-AA67-BC5C-05D97FCEAF40</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Apod_codigo" id="01C55AD4-4918-18C4-D1CE-4A1A7DABAB38">
 <createdBy>Alumno02</createdBy>
 <createdTime>2023-08-21 19:16:18 UTC</createdTime>
 <generatorID>47F6234C-0A82-5D02-B85D-5617BFEB67FB</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <referedAttribute>072F70E4-57B7-2DE6-C758-E0AFE41E50BD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ID_Curso" id="544BB5F7-835B-67CC-F996-B4185E266124">
 <createdBy>Alumno02</createdBy>
@@ -90,14 +75,29 @@
 <generatorID>FA6853F7-2149-215C-01D2-FD071B1E9F43</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <referedAttribute>FA33224B-F828-DDCB-454F-43134F4D5BB2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cuenta" id="DC7233F4-7444-4525-5CC1-52CA35287CEA">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 13:17:51 UTC</createdTime>
+<generatorID>9905A1F0-1942-9B9B-6667-24E74ED3E7C8</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+</engineerTo>
+<referedAttribute>3529ABF4-C35A-0A30-F4D2-88FF18B84DE6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -106,12 +106,11 @@
 <createdTime>2023-07-19 18:22:26 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A2DD6660-0590-A5CF-DD90-E6EE7F47B91E</attributeRef>
-<attributeRef>F6F0A7F9-F1AF-C286-D973-B8461F33DD0C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

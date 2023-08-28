@@ -4,8 +4,9 @@
 <createdTime>2023-08-21 19:23:52 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
+<sourcePk>2849C735-1F2B-1763-85B8-4C5B2A474F11</sourcePk>
 <targetPk>48E2AF3F-C917-E4B9-5FCE-7840EB15DE8D</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>

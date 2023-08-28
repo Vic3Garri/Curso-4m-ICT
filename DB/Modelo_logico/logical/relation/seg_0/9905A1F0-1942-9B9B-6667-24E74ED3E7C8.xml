@@ -1,13 +1,13 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="tipo alupno" directorySegmentName="seg_0" id="79079D8F-F459-A8DC-CF43-0D4B0697E7A4">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="c_alum" directorySegmentName="seg_0" id="9905A1F0-1942-9B9B-6667-24E74ED3E7C8">
 <createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 18:44:38 UTC</createdTime>
+<createdTime>2023-08-28 13:10:22 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
 </engineerTo>
-<sourcePk>3AD7F1FF-EDE5-C732-C848-5A09E0ADFB04</sourcePk>
-<arc>203F58D1-09B4-ED35-6F40-9A917ABD4737</arc>
+<sourcePk>50EB195E-A90C-2716-3A18-62250DC7716D</sourcePk>
+<arc>CB533055-F6E1-B94A-EECB-BD3A1A394F92</arc>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>

@@ -4,7 +4,7 @@
 <createdTime>2023-07-17 18:59:33 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_horario" id="B15019B5-941A-6B45-8529-A82C3F1B2932">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 12:46:39 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="entrada" id="8B970311-2B08-E9F0-A189-A0C417F12ADA">
 <createdBy>Ayln</createdBy>
 <createdTime>2023-07-17 18:59:39 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +45,7 @@
 <createdTime>2023-07-17 19:00:02 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +58,7 @@
 <createdTime>2023-07-17 19:00:02 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,7 +71,7 @@
 <createdTime>2023-07-17 19:00:02 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -72,14 +85,28 @@
 <generatorID>91B9C82B-B2EA-55EA-208F-FFD551655745</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="D8C27E27-0405-755E-A08E-9F21B2D3BE47" value="true"/>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
 </engineerTo>
 <referedAttribute>FA33224B-F828-DDCB-454F-43134F4D5BB2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2849C735-1F2B-1763-85B8-4C5B2A474F11" name="horario PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 12:46:58 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="AA76FD8B-EF9A-4CFE-DC1A-6A5FE00116BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B15019B5-941A-6B45-8529-A82C3F1B2932</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
