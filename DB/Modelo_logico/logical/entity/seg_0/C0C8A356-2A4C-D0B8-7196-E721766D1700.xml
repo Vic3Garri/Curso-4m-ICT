@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0C8A356-2A4C-D0B8-7196-E721766D1700" name="Tipo_C">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:28:52 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipo" id="12C425F8-5ECC-0E9B-1766-16E6E69FDDE4">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:29:12 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N_tipo" id="4530BF3D-2789-0498-0D15-9F77F820833C">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:29:29 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5377684-E085-5FB4-6E1D-E98FF0292316" name="Tipo_C PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:29:28 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12C425F8-5ECC-0E9B-1766-16E6E69FDDE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

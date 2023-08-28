@@ -4,7 +4,7 @@
 <createdTime>2023-07-17 18:55:54 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="CA9C245F-0AB2-E638-273C-B7A1F88FB1D9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-08-28 12:47:18 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="CA9C245F-0AB2-E638-273C-B7A1F88FB1D9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-07-17 18:56:03 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="CA9C245F-0AB2-E638-273C-B7A1F88FB1D9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +46,7 @@
 <createdTime>2023-08-21 19:06:40 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="CA9C245F-0AB2-E638-273C-B7A1F88FB1D9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,7 +59,7 @@
 <generatorID>C53F97D5-F9A4-51BA-ECF8-A750C107740C</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="CA9C245F-0AB2-E638-273C-B7A1F88FB1D9" value="true"/>
 </engineerTo>
 <referedAttribute>A2DD6660-0590-A5CF-DD90-E6EE7F47B91E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -68,20 +68,6 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_Curso" id="A621FF82-BFD6-3521-A1B1-5BDAA33CD6A4">
-<createdBy>Alumno02</createdBy>
-<createdTime>2023-08-21 19:24:35 UTC</createdTime>
-<generatorID>C53F97D5-F9A4-51BA-ECF8-A750C107740C</generatorID>
-<ownerDesignName>Modelo_logico</ownerDesignName>
-<engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
-</engineerTo>
-<referedAttribute>F6F0A7F9-F1AF-C286-D973-B8461F33DD0C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B82AD264-07F7-AEA8-8EC7-A6035FB11562" name="asistencia PK">
@@ -89,7 +75,7 @@
 <createdTime>2023-08-21 19:07:47 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="CA9C245F-0AB2-E638-273C-B7A1F88FB1D9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

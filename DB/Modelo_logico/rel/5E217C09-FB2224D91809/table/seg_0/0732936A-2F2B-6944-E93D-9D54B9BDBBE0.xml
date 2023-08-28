@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0732936A-2F2B-6944-E93D-9D54B9BDBBE0" name="Alumno">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>DD42449B-4343-810D-3AC5-BF180553239C</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Alum_codigo" id="D30B591C-B3F0-CABE-2C42-AA57D37F936A">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>A2DD6660-0590-A5CF-DD90-E6EE7F47B91E</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_Nacimiento" id="1CF9E3F9-08B3-9461-597B-0965C80BF9FC">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>3CDDCB7E-492B-24E6-913E-36FB60EE286F</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_apoderado" id="279A8D4A-113B-179F-F6FF-86FA843F1F3B">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>C8387A0C-49D5-27A7-64DA-E14F22CBB586</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apoderado_Apod_codigo" id="4ACA1BCD-A88B-F17A-0A42-12F574241A89">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>01C55AD4-4918-18C4-D1CE-4A1A7DABAB38</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16E19F19-A90C-233A-1366-71AB60B270F0" referredColumn="C1DD558D-617B-1230-7914-20B4A85D15FE"/>
+</associations>
+</Column>
+<Column name="Curso_ID_Curso" id="C869A099-E681-4392-0E95-E2624432DD89">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>544BB5F7-835B-67CC-F996-B4185E266124</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA61B0D9-F040-5206-78D7-A693B034B147" referredColumn="F4FA78CA-1A8C-B3FC-1F45-EA8A1196FC5B"/>
+</associations>
+</Column>
+<Column name="Tipo_C_id_tipo" id="97CEA58A-0AF9-A665-236B-4A7AF8D6CC67">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>9DD8ECB7-D392-5626-24A8-1EA1C3B6F8EB</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="836651BC-EED0-7953-95F3-0CBCB66E261F" referredColumn="0AFDFA11-D98E-3217-670D-A689EFC1B0F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="968BBA99-1868-EF10-13AE-9142D6B50C5D" name="Alumno_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>ADEC7DF2-29D2-061F-73B3-1EC0FEA2931F</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D30B591C-B3F0-CABE-2C42-AA57D37F936A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E909CD37-857C-3779-8B46-B3D3594D2A9D" name="Alumno__IDX">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>01365ABA-EFDB-451B-2125-A2489D420B62</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="97CEA58A-0AF9-A665-236B-4A7AF8D6CC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="291B8AEE-1048-B738-B1E2-4F59211FAAB8" name="Alumno_Curso_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>FA6853F7-2149-215C-01D2-FD071B1E9F43</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C869A099-E681-4392-0E95-E2624432DD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE33B3C3-A755-5DB7-194B-59D9D554A5DA" name="Alumno_Tipo_C_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>01365ABA-EFDB-451B-2125-A2489D420B62</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97CEA58A-0AF9-A665-236B-4A7AF8D6CC67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EE8408B-3C94-D09E-5747-C2EEF21EBD7F" name="Alumno_Apoderado_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>47F6234C-0A82-5D02-B85D-5617BFEB67FB</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ACA1BCD-A88B-F17A-0A42-12F574241A89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

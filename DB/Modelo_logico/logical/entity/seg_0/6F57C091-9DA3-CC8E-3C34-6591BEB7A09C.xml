@@ -4,7 +4,7 @@
 <createdTime>2023-07-19 18:34:37 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-07-19 18:34:59 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,13 +33,28 @@
 <createdTime>2023-07-19 18:35:17 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo" id="2090E149-8F0D-FD0C-F541-89736D947603">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:46:41 UTC</createdTime>
+<generatorID>0D2FEFCE-03B7-32AF-7334-EFE079EDA910</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<engineerTo>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+</engineerTo>
+<referedAttribute>12C425F8-5ECC-0E9B-1766-16E6E69FDDE4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -48,7 +63,7 @@
 <createdTime>2023-08-21 18:48:36 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="BAB9447F-2E08-F283-3145-72327BED06B4" value="true"/>
+<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

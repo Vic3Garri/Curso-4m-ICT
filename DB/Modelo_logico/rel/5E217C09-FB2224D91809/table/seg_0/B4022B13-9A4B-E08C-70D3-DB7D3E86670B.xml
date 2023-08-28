@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4022B13-9A4B-E08C-70D3-DB7D3E86670B" name="Apoderado">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>EED26BFA-1DE9-FDE9-734B-F2D1FA26129E</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Apod_codigo" id="C1DD558D-617B-1230-7914-20B4A85D15FE">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>072F70E4-57B7-2DE6-C758-E0AFE41E50BD</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_C_id_tipo" id="44DCBF32-252C-C842-187C-AD6B35A2DA78">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>E301B361-FD1B-50E2-A56F-15912FC4A895</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0794E01C-A626-6F5B-8D4A-E382D10E5813" referredColumn="0AFDFA11-D98E-3217-670D-A689EFC1B0F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D9E65CA-6EC1-69A3-0A44-9641B57D02CF" name="Apoderado_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>375A0EFC-B355-DA31-4149-35ADA9910654</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1DD558D-617B-1230-7914-20B4A85D15FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54777125-234C-606D-4B12-6B0878012825" name="Apoderado__IDX">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6DAB0251-4688-9859-1BD9-DD16F434E804</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="44DCBF32-252C-C842-187C-AD6B35A2DA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A3B98BC4-BEEE-D830-C296-7DCB47E61196" name="Apoderado_Tipo_C_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-08-28 19:52:16 UTC</createdTime>
+<generatorID>6DAB0251-4688-9859-1BD9-DD16F434E804</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44DCBF32-252C-C842-187C-AD6B35A2DA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
