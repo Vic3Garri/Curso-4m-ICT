@@ -18,7 +18,7 @@ p {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: system-ui;
 }
 
 header {
@@ -29,9 +29,10 @@ header {
     justify-content: space-between;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 header nav{
-    background-color: #3254d1;
+    background-color:   #3254d1;
     overflow:hidden;
     width: 100%;
 }
@@ -48,11 +49,12 @@ header nav ul li a{
     display:block;
     color:#ffffff;
     text-decoration: none;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui
 }
 header nav ul li a:hover{
-    background:rgb(20, 7, 197);
-    border: 1px solid #e4bc0c;
+    background:rgba(48, 68, 245, 0.507);
+    border: 0.2px outset #3634da;
+    border-radius: 1000px;
 }
 
 .Logotipo {
@@ -73,6 +75,12 @@ header nav ul li a:hover{
 .menu a {
     color: white;
     text-decoration: none;
+}
+.iniciarsesion{
+    position: relative;
+    left:230px;
+    bottom: 20px;
+    background: #428bca;
 }
 
 .h1_inicio {
