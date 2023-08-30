@@ -201,8 +201,14 @@ CSS DEL CARUSEL
     -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
-
-
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
 
 
 /*
@@ -219,7 +225,8 @@ footer {
     gap: 20px; 
     margin-top: 50px;
     width: 100%;
-
+    position: absolute;
+    top: 100%;
 }
 .youtube{
     width: 50px;
@@ -283,8 +290,8 @@ footer {
     background-image: url('https://img.freepik.com/iconos-gratis/facebook_318-187574.jpg');
 }
 .SAE{
-    width: 50px;
-    height: 50px;
+    width: 43px;
+    height: 43px;
     margin-top: 5px;
     text-align: center;
     cursor: pointer;
