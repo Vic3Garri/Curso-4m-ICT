@@ -390,12 +390,15 @@ CSS DESCARGAS(ESPECIALIDAD)
     padding: 10px;
     right: 7px;
     position: relative;
+    top: 300px;
 }
 
 .VISUAL img{
     width: auto;
     height: 50px;
     padding: 10px;
+    top: 300px;
+    position: relative;
 }
 
 .BLUJOTA img{
@@ -404,12 +407,15 @@ CSS DESCARGAS(ESPECIALIDAD)
     padding: 10px;
     right: 10px;
     position: relative;
+    top: 300px;
 }
 
 .PESEPLUS img{
     width: auto;
     height: 50px;
     padding: 10px;
+    top: 300px;
+    position: relative;
 }
 
 .ul_descargas li{
