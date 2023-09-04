@@ -1,0 +1,310 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23696AF2-EA1F-36BE-C97F-AC46B2C32904" name="Nota">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>874BCFC1-BD94-6097-9CD5-C6EED9670EE0</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nota" id="BFBD358F-8B9C-6977-5211-F7FA59832A64">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>E7963EEA-BB1A-D007-4680-80A4A9944F3B</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Semestre" id="CB4DE531-C156-75B5-3B53-201BA32816E4">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>7E5BC846-83F6-5F91-FF5F-823ECCB70A57</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota1" id="57BE1847-C3EE-0303-38D3-EE6C55E27C1B">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>6F6EA76B-0E95-5D44-667B-2EA0A4A3B580</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota2" id="5297C5BC-4E6E-CC6F-4F20-FEDFEA371D3A">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>B2DC6B9F-A01E-64DE-FEA7-77A869BE961A</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota3" id="52BB10BC-D96D-EBA7-B0D2-AB5CABCE432F">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>A028304E-2154-5C33-FA69-51D824C14923</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota4" id="6AD5F6CC-E4E3-50BC-BF63-90B2ECC29E45">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>FA488A68-4A2B-5BC2-975C-26F0BAD69754</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota5" id="AE0583C3-2BAF-5694-088C-7445D8A596D8">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>C0E4038A-CF3B-9190-6AAE-D1CFE5B90369</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota6" id="26CA2998-3028-E59B-889E-0B29F1FCD0FF">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>BD327D7E-DF45-3A0E-407E-18D509EC7C97</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota7" id="954B9F87-0FF1-7030-D6E9-233BEC02ABF8">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>9E1DDF39-5947-0B40-547F-5BB212045C6E</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota8" id="464795E6-A414-B4B3-7DC2-EF304F0D4892">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>1A35EBA8-3BD8-A417-54C0-228C68204077</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota9" id="2C026CC2-1B8D-B88D-B003-4CD6FFB8051D">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>18E8A220-9C32-806A-C24B-CD494BF38569</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota10" id="3BE11D42-FC4F-EEC4-B580-ED579DFEC54B">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>289E8584-9AE6-9C49-9F62-365821392815</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota11" id="4D92C199-8531-186C-EF12-03C94DAAD3B7">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>A15BBF27-6661-82F2-C832-F1C251476599</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota12" id="43E25E6B-F5DA-A32D-1C57-6933B4B12175">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>649A035E-F3E4-4E49-9538-F5196361DAE4</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota13" id="502BA3C8-6B00-494D-8B8D-ACF336E2580A">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>A73F61CE-FA80-2525-F67F-40FF21D1C8BA</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota14" id="8E7D941B-0BC3-34ED-1049-F4B7F332B2C7">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>AD0868B5-FF4A-997C-0A26-3359BD6DC83A</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota15" id="A02A8E08-57C8-CEEF-D5D9-B137D00764E8">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>82F38F62-8DA1-682F-52D2-60DF92B84B73</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Promedio" id="B3B3ADB3-9539-00F8-1B62-DA849F56AAD3">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>B05EE1E5-5C68-1A48-ADE1-7DA306539438</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alumno_Alum_codigo" id="294EABAD-7D45-A2DB-BC29-155685059597">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>3C24D8D8-135A-9C13-45B9-05C8F2193F9A</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="469736F8-0FEC-0C16-B257-131A20E5FDBD" referredColumn="15F33DD5-4EE5-E8CE-6DF9-C68A5B3FE4AF"/>
+</associations>
+</Column>
+<Column name="ID_Curso" id="6EE065C2-8111-0549-9D42-03CDAEDF039A">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>425D3B8A-55B9-4958-13D9-1708DF40309F</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="279A702E-B912-9DFE-FB47-C7F00FE211E8" name="Nota_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>95EF76A9-686A-6A29-A6CA-BE2BBBA37D6E</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFBD358F-8B9C-6977-5211-F7FA59832A64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AE1347E-D257-9775-6A79-C1877CE7F9F8" name="Nota_Alumno_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>30EEE495-7F9D-8B85-6F6A-3FF4108CE595</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294EABAD-7D45-A2DB-BC29-155685059597"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

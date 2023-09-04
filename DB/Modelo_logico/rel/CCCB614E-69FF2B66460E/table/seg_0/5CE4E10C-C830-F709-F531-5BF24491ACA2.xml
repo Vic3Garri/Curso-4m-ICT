@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CE4E10C-C830-F709-F531-5BF24491ACA2" name="d_asig">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Docente_Doc_codigo" id="7ABE67E5-ACBE-68EC-1ED9-F2BD27BD7F4B">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4E4ED21-44D2-4D16-3B5D-BD0EA6F4E2E9" referredColumn="246EF9B9-D70D-E656-0699-DA54F6A973E6"/>
+</associations>
+</Column>
+<Column name="Asignatura_id_asig" id="2A326093-02D8-23AC-4506-14D7212A55CB">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B901EEC7-CB92-B761-ED95-4CC1850575A4" referredColumn="0EDCF5B5-B585-B53D-64BA-F17E1D73479E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCEC8716-F92C-3F5D-64F0-3E572EB3ACB0" name="d_asig_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ABE67E5-ACBE-68EC-1ED9-F2BD27BD7F4B"/>
+<colUsage columnID="2A326093-02D8-23AC-4506-14D7212A55CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C339F10-5171-A325-EC47-B4DD47C98111" name="d_asig_Docente_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>A830FF40-630F-A826-62EC-8315BF704463</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ABE67E5-ACBE-68EC-1ED9-F2BD27BD7F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49FB097C-2FD9-7205-F246-F9B3D2EF74CF" name="d_asig_Asignatura_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>A830FF40-630F-A826-62EC-8315BF704463</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A326093-02D8-23AC-4506-14D7212A55CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

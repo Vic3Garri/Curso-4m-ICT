@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7B2862A-8012-0E55-837B-BC24F27EBDD8" containerWithKeyObject="9A3A9584-41AC-A274-EAA9-0AC13A4A1CDC" localFKIndex="43AA3F9B-8FF1-008A-5813-9D7B8C02D616" name="tiem_clases_horario_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>1E5AFA93-215A-C414-5EF8-C1E123E92ADA</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<referredTableLongName>horario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2735E00D-73B2-8C43-C4E4-85CBA7541501</referredTableID>
+<keyObject>46A4A804-22D2-9A06-C0B3-5DC21D06A73E</keyObject>
+<referredKeyID>46A4A804-22D2-9A06-C0B3-5DC21D06A73E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_horario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

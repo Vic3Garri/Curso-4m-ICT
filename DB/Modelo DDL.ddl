@@ -6,14 +6,14 @@
 
 
 CREATE TABLE admin (
-    admin_cod           NUMERIC(10) NOT NULL,
-    contraseña_admin    VARCHAR(10) NOT NULL,
-    docente_doc_codigo  NUMERIC(10) NOT NULL
+    admin_cod         NUMBER(10) NOT NULL,
+    contraseña_admin  VARCHAR2(10) NOT NULL,
+    tipo_c_id_tipo    NUMBER(10) NOT NULL
 );
 
-CREATE UNIQUE INDEX admin__idxv1 ON
+CREATE UNIQUE INDEX admin__idx ON
     admin (
-        docente_doc_codigo
+        tipo_c_id_tipo
     ASC );
 
 ALTER TABLE admin ADD CONSTRAINT admin_pk PRIMARY KEY ( admin_cod );
@@ -196,12 +196,8 @@ CREATE TABLE tipo_c (
 ALTER TABLE tipo_c ADD CONSTRAINT tipo_c_pk PRIMARY KEY ( id_tipo );
 
 ALTER TABLE admin
-    ADD CONSTRAINT admin_alumno_fk FOREIGN KEY ( alumno_alum_codigo )
-        REFERENCES alumno ( alum_codigo );
-
-ALTER TABLE admin
-    ADD CONSTRAINT admin_docente_fk FOREIGN KEY ( docente_doc_codigo )
-        REFERENCES docente ( doc_codigo );
+    ADD CONSTRAINT admin_tipo_c_fk FOREIGN KEY ( tipo_c_id_tipo )
+        REFERENCES tipo_c ( id_tipo );
 
 ALTER TABLE alumno
     ADD CONSTRAINT alumno_apoderado_fk FOREIGN KEY ( apoderado_apod_codigo )

@@ -4,7 +4,7 @@
 <createdTime>2023-07-19 18:34:37 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-07-19 18:34:59 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-07-19 18:35:17 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,14 +47,14 @@
 <generatorID>0D2FEFCE-03B7-32AF-7334-EFE079EDA910</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <referedAttribute>12C425F8-5ECC-0E9B-1766-16E6E69FDDE4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -63,7 +63,7 @@
 <createdTime>2023-08-21 18:48:36 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="5E217C09-76D4-D6DB-7C6C-FB2224D91809" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

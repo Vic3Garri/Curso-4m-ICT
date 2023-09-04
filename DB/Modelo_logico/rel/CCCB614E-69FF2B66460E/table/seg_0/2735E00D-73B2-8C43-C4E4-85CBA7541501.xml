@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2735E00D-73B2-8C43-C4E4-85CBA7541501" name="horario">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>1929F3CE-212B-E7F9-6006-2A64B574CF96</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_horario" id="6FED20A7-714B-BAE4-0115-D1E6317A9C70">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>B15019B5-941A-6B45-8529-A82C3F1B2932</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="entrada" id="C23C8D2C-D7FD-72A8-10F3-6C17C1B73553">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>8B970311-2B08-E9F0-A189-A0C417F12ADA</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salida" id="AF6F5717-B09E-BF25-541C-CAEDC7B79C78">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>1228CB0D-BBC1-1140-0966-7A62879FBE53</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descansos" id="4A8DB022-F8C7-5617-8AE5-5F7586AB8C29">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>009B3C98-90C9-790B-126A-1E439F16D69F</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="almuerzo" id="6592E46D-97AE-77BE-2DC8-F12A0FEAF425">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>CAAE71B9-BD79-3E89-9137-BEE22AC2155A</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Curso_ID_Curso" id="D10D180E-DC35-9B9D-CFA7-5C81CD0DFB6E">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>3A250F9A-0536-0CBF-20BA-CAC81BC9A166</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="678CCE67-A6C3-DD47-983A-88E9C3B2B5FA" referredColumn="857CE5A3-2F7E-798D-021D-AA2AFCD561F2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46A4A804-22D2-9A06-C0B3-5DC21D06A73E" name="horario_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>2849C735-1F2B-1763-85B8-4C5B2A474F11</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FED20A7-714B-BAE4-0115-D1E6317A9C70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0F19238-2E89-ABB8-C5F5-4C8E4474567A" name="horario__IDX">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>91B9C82B-B2EA-55EA-208F-FFD551655745</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D10D180E-DC35-9B9D-CFA7-5C81CD0DFB6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46366C71-28BF-8127-ADDF-35C5CB29FF3C" name="horario_Curso_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>91B9C82B-B2EA-55EA-208F-FFD551655745</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D10D180E-DC35-9B9D-CFA7-5C81CD0DFB6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

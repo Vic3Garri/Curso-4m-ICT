@@ -4,7 +4,7 @@
 <createdTime>2023-07-19 18:51:49 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="E918ADF8-56CD-FF31-9A78-321BC428725F" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2023-07-19 18:52:35 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="E918ADF8-56CD-FF31-9A78-321BC428725F" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <createdTime>2023-08-21 13:09:14 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="E918ADF8-56CD-FF31-9A78-321BC428725F" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -41,20 +41,20 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Doc_codigo" id="326D5844-266E-3061-85E6-A254B984207D">
+<Attribute name="id_tipo" id="982A453A-FBED-CD4D-81FC-09A6B5204A09">
 <createdBy>Alumno02</createdBy>
-<createdTime>2023-08-28 18:32:10 UTC</createdTime>
-<generatorID>E0C3B54E-4A7F-2FB1-44CD-96A1CA851756</generatorID>
+<createdTime>2023-09-04 12:17:49 UTC</createdTime>
+<generatorID>74AAA377-40FB-C547-C6B0-58C5314DC545</generatorID>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="E918ADF8-56CD-FF31-9A78-321BC428725F" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
-<referedAttribute>D13138BB-93F5-858A-27DF-ADC78A7D435C</referedAttribute>
+<referedAttribute>12C425F8-5ECC-0E9B-1766-16E6E69FDDE4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -63,7 +63,7 @@
 <createdTime>2023-07-19 18:54:40 UTC</createdTime>
 <ownerDesignName>Modelo_logico</ownerDesignName>
 <engineerTo>
-<item key="E918ADF8-56CD-FF31-9A78-321BC428725F" value="true"/>
+<item key="CCCB614E-5857-74EE-39DF-69FF2B66460E" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

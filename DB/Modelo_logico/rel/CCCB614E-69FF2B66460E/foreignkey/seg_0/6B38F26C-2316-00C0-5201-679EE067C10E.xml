@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6B38F26C-2316-00C0-5201-679EE067C10E" containerWithKeyObject="ACF547C3-3719-1AF1-CA1A-E78038147788" localFKIndex="32BCF3CB-212B-85F2-0130-843D7AED2A9D" name="ins_Talleres_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 12:18:35 UTC</createdTime>
+<generatorID>BBB485AD-8243-1F6E-566B-5D84BFB3B58B</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<referredTableLongName>Talleres</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43A187B3-7BF1-5394-CCF4-CEFBE7429F9A</referredTableID>
+<keyObject>B20102BE-2DE3-AD32-97B6-7D6E8D8BD9A4</keyObject>
+<referredKeyID>B20102BE-2DE3-AD32-97B6-7D6E8D8BD9A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tall</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
