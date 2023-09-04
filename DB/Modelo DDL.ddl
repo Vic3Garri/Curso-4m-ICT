@@ -8,14 +8,8 @@
 CREATE TABLE admin (
     admin_cod           NUMERIC(10) NOT NULL,
     contraseña_admin    VARCHAR(10) NOT NULL,
-    alumno_alum_codigo  NUMERIC(10) NOT NULL,
     docente_doc_codigo  NUMERIC(10) NOT NULL
 );
-
-CREATE UNIQUE INDEX admin__idx ON
-    admin (
-        alumno_alum_codigo
-    ASC );
 
 CREATE UNIQUE INDEX admin__idxv1 ON
     admin (
@@ -195,8 +189,8 @@ ALTER TABLE tiem_clases ADD CONSTRAINT tiem_clases_pk PRIMARY KEY ( asignatura_i
                                                                     horario_id_horario );
 
 CREATE TABLE tipo_c (
-    id_tipo  NUMERIC(10) NOT NULL,
-    n_tipo   NUMERIC(1) NOT NULL
+    id_tipo  	 NUMERIC(10) NOT NULL,
+    descripcion  VARCHAR(50) NOT NULL
 );
 
 ALTER TABLE tipo_c ADD CONSTRAINT tipo_c_pk PRIMARY KEY ( id_tipo );
