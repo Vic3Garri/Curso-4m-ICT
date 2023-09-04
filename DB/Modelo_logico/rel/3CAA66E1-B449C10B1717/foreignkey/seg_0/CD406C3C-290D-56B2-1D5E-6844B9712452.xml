@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD406C3C-290D-56B2-1D5E-6844B9712452" containerWithKeyObject="455C696F-4E69-ECD2-E4E7-E726683E9700" localFKIndex="54BF6598-6046-EB30-875D-BCEB3D005AAE" name="Alumno_Apoderado_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>47F6234C-0A82-5D02-B85D-5617BFEB67FB</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<referredTableLongName>Apoderado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B879D9EB-0FED-50EE-25D8-5B4D8922C702</referredTableID>
+<keyObject>EAD299C0-9602-0EAB-BB5B-ABF641E41064</keyObject>
+<referredKeyID>EAD299C0-9602-0EAB-BB5B-ABF641E41064</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Apod_codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

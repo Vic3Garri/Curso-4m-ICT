@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABD2E33A-AACB-2172-D5A2-21ADE1DAA0D1" name="tiem_clases">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Asignatura_id_asig" id="5A24CC96-BACD-8F3C-E2C7-64256EF640F0">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F130FD1-FE13-D765-185D-84A3D5F9E734" referredColumn="3685BAD9-032D-272D-932A-3EDDB872E3D0"/>
+</associations>
+</Column>
+<Column name="horario_id_horario" id="A3B7FF5D-5438-D21F-D772-09EB6CD3FCB1">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77B5F751-2ABD-1E4C-7D4D-CE92763B63F7" referredColumn="769E2183-C87B-0956-378C-0518B29E538C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77CCEBA2-F341-E175-C22C-5BACBA31DEF4" name="tiem_clases_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A24CC96-BACD-8F3C-E2C7-64256EF640F0"/>
+<colUsage columnID="A3B7FF5D-5438-D21F-D772-09EB6CD3FCB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="788DA0AD-B293-E74B-0ADE-14A7220B508E" name="tiem_clases_Asignatura_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>1E5AFA93-215A-C414-5EF8-C1E123E92ADA</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A24CC96-BACD-8F3C-E2C7-64256EF640F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C609192-2F97-146B-B492-251B9F745E88" name="tiem_clases_horario_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>1E5AFA93-215A-C414-5EF8-C1E123E92ADA</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B7FF5D-5438-D21F-D772-09EB6CD3FCB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1EB9FD7-003C-256B-95D9-D763D94A278B" name="Admin">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>14059D24-3E61-53A1-18AF-3CDF9B95A2AD</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Admin_cod" id="51460D8C-72DE-E72F-6528-9F4C6C1B0647">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>82AC6584-EAA9-981A-BD2F-6A06E720E073</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contraseña_admin" id="31A27C7F-7DCC-CE19-9CE0-A9784459929A">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>EBD58424-5971-EA45-AB66-77E8ADA3C94C</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_C_id_tipo" id="282CE986-D78E-3B40-92F0-855F6EA369AE">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>982A453A-FBED-CD4D-81FC-09A6B5204A09</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9EA5654-3299-5B0D-4279-8066A8BBA4C6" referredColumn="051C4105-760A-6C44-B2DA-9FDD9A5FDB03"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E74DC44-9013-11FC-5106-53C5DDF860D1" name="Admin_PK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>6D0EE383-95E5-17B8-01A2-577882CEA0E2</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51460D8C-72DE-E72F-6528-9F4C6C1B0647"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09623B29-EDA5-8A0A-B228-C3EC76390EA3" name="Admin__IDX">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>74AAA377-40FB-C547-C6B0-58C5314DC545</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="282CE986-D78E-3B40-92F0-855F6EA369AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF85BDA9-7761-B574-D866-BF5333D007B6" name="Admin_Tipo_C_FK">
+<createdBy>Alumno02</createdBy>
+<createdTime>2023-09-04 17:44:35 UTC</createdTime>
+<generatorID>74AAA377-40FB-C547-C6B0-58C5314DC545</generatorID>
+<ownerDesignName>Modelo_logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="282CE986-D78E-3B40-92F0-855F6EA369AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

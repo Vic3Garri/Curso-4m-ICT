@@ -6,9 +6,9 @@
 
 
 CREATE TABLE admin (
-    admin_cod         NUMBER(10) NOT NULL,
-    contraseña_admin  VARCHAR2(10) NOT NULL,
-    tipo_c_id_tipo    NUMBER(10) NOT NULL
+    admin_cod         NUMERIC(10) NOT NULL,
+    contraseña_admin  VARCHAR(10) NOT NULL,
+    tipo_c_id_tipo    NUMERIC(10) NOT NULL
 );
 
 CREATE UNIQUE INDEX admin__idx ON
@@ -77,16 +77,10 @@ CREATE TABLE cuenta (
 ALTER TABLE cuenta ADD CONSTRAINT cuenta_pk PRIMARY KEY ( id_cuenta );
 
 CREATE TABLE curso (
-    id_curso            NUMERIC(10) NOT NULL,
-    n_curso             NUMERIC(1) NOT NULL,
-    sigla_curso         CHAR(1) NOT NULL,
-    horario_id_horario  NUMERIC(10) NOT NULL
+    id_curso     NUMERIC(10) NOT NULL,
+    n_curso      NUMERIC(1) NOT NULL,
+    sigla_curso  CHAR(1) NOT NULL
 );
-
-CREATE UNIQUE INDEX curso__idx ON
-    curso (
-        horario_id_horario
-    ASC );
 
 ALTER TABLE curso ADD CONSTRAINT curso_pk PRIMARY KEY ( id_curso );
 
