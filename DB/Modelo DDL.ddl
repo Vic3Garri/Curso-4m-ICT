@@ -217,10 +217,6 @@ ALTER TABLE cuenta
     ADD CONSTRAINT cuenta_tipo_c_fk FOREIGN KEY ( tipo_c_id_tipo )
         REFERENCES tipo_c ( id_tipo );
 
-ALTER TABLE curso
-    ADD CONSTRAINT curso_horario_fk FOREIGN KEY ( horario_id_horario )
-        REFERENCES horario ( id_horario );
-
 ALTER TABLE d_asig
     ADD CONSTRAINT d_asig_asignatura_fk FOREIGN KEY ( asignatura_id_asig )
         REFERENCES asignatura ( id_asig );
