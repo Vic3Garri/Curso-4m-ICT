@@ -375,8 +375,6 @@ CSS GALERIA
 .galeria {
     margin: 5px;
     border: 1px solid #ccc;
-    width: 400px;
-    height: 300px;
     display: block;
     margin: 21px;
     border: 1px solid gray;
@@ -441,4 +439,24 @@ CSS DESCARGAS(ESPECIALIDAD)
     align-items: center;
     position: relative;
     float: left;
+}
+.idocentes{
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 21px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    transition: transform 155ms ease-in-out;
+}
+.idocentes:hover {
+    transform:scale(1.1);
+    border: 1px solid #777;
+}
+
+.idocentes img {
+    width: 100%;
+    height: 200px;
+    height: 200px;
 }
