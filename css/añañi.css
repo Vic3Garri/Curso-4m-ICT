@@ -440,23 +440,24 @@ CSS DESCARGAS(ESPECIALIDAD)
     position: relative;
     float: left;
 }
-.idocentes{
-    margin: 5px;
-    border: 1px solid #ccc;
-    display: block;
-    margin: 21px;
+
+.idocentes {
+    display: flex;
+    align-items: center;
     border: 1px solid gray;
-    width: 200px;
-    height: 200px;
-    transition: transform 155ms ease-in-out;
-}
-.idocentes:hover {
-    transform:scale(1.1);
-    border: 1px solid #777;
+    margin-top: 15px;
 }
 
-.idocentes img {
-    width: 100%;
-    height: 200px;
-    height: 200px;
+
+img {
+    width: 200px; 
+    height: auto;
+    margin-right: 20px; 
+    
+}
+
+.itexto {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+   
 }
