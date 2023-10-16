@@ -78,7 +78,7 @@ header nav ul li a:hover{
 }
 .iniciarsesion{
     position: relative;
-    left:230px;
+    left:85px;
     bottom: 20px;
     background: #428bca;
 }
@@ -375,8 +375,6 @@ CSS GALERIA
 .galeria {
     margin: 5px;
     border: 1px solid #ccc;
-    width: 400px;
-    height: 300px;
     display: block;
     margin: 21px;
     border: 1px solid gray;
@@ -441,4 +439,119 @@ CSS DESCARGAS(ESPECIALIDAD)
     align-items: center;
     position: relative;
     float: left;
+}
+
+.idocentes {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    margin-top: 15px;
+}
+
+
+img {
+    width: 350px; 
+    height: 350px;
+    margin-right: 20px; 
+    
+}
+
+.itexto {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/*
+CSS login 
+*/
+
+.fondo{
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top; 
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #6488ff;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 70px 30px;
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b1bdff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #65a8ff;
+    color: #000;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.login-box a:hover {
+    color: #fff;
 }
