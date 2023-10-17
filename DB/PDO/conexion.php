@@ -1,15 +1,14 @@
 <?php
 
-    $host="localhost";
-    $user="ictAdm";
-    $pass="ict#2023";
-    $dbname="ict_web";
-
-    try{
-        $DBH = new PDO("mysql:host=$host;dbname=$dbname, $user, $pass");
-    }catch(PDOException $e) {
+    $host='localhost';
+    $user='root';
+    $pass='123456789';
+    $dbname='ict_web';
+   
+    try {
+        $dsn = "mysql:host=$host;dbname=$dbname";
+        $dbh = new PDO($dsn, $user, $pass);
+        echo "conexion exitosa";
+    } catch (PDOException $e){
         echo $e->getMessage();
     }
-    $DBH = null;
-
-   
