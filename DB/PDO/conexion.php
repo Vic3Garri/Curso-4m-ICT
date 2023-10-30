@@ -12,3 +12,4 @@
     } catch (PDOException $e){
         echo $e->getMessage();
     }
+    $dbh = null;
