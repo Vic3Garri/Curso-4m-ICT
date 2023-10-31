@@ -1,13 +1,11 @@
-<? 
-$servidor= "localhost";
-$usuario= "pma";
-$password= "";
-$db= "ict_web";
-$conexion = new mysqli($servidor, $usuario, $password, $db);
-if($conexion->connect_errno){
-    die("coneccion fallida: ".$conexion->connect_errno);
+<?php
+$conecta = mysqli_connect("localhost", "root", "", "ict_web");
+if($conecta->connect_error){
+
+    die("Error al conectar la base de la pagina: " . $conecta->connect_error);
 }
 else{
-    echo "conexion exitosa";
+echo "coneccion exitosa";
+mysqli_close($conecta);
 }
 ?>

@@ -1,8 +1,3 @@
-<?php 
-// 
-include 'includes/conencta.php';
-
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +15,7 @@ include 'includes/conencta.php';
         </div>
         <nav>
             <ul class="menu">
-                <li><a href="Inicio.html">Inicio</a></li>
+                <li><a href="Inicio.php">Inicio</a></li>
                 <li><a href="Historia.html">Nuestra historia</a></li>
                 <li><a href="Especialidad.html">Especialidad</a></li>
                 <li><a href="Logros.html">Logros</a></li>
@@ -31,12 +26,11 @@ include 'includes/conencta.php';
             </ul>   
             <div class="iniciarsesion">
                 <ul>
-                <li><a href="iniciar.html">Iniciar Sesión</a></li>
+                <li><a href="iniciar.php">Iniciar Sesión</a></li>
                 </ul>
             </div>
-            </nav>
     </header>
-
+    
     <h1 class="h1_inicio">
         Instituto de Ciencias y Tecnologia de Talagante
     </h1>
@@ -138,5 +132,15 @@ include 'includes/conencta.php';
 
 
 </body>
+<?php
+    $conecta = mysqli_connect("localhost", "root", "", "ict_web");
+    if($conecta->connect_error){
 
+        die("Error al conectar la base de la pagina: " . $conecta->connect_error);
+    }
+    else{
+    echo "coneccion exitosa";
+    mysqli_close($conecta);
+    }
+    ?>
 </html> 
