@@ -30,7 +30,7 @@
             if ($row['nombre'] === $Usuario && $row['clave'] === $Clave){
                 $_SESSION['Usuario'] = $row['Usuario'];
                 $_SESSION['Clave'] = $row['Clave'];
-                header("location: Historia.html");
+                header("location: Inicio.html");
                 exit();
             }else{
                 header("location: iniciar.php?error-El usuario o la clave son incorrecto");
