@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include("conencta.php");
+    include("conecta.php");
 
     if(isset($_POST['nombre']) && $_POST['contraceña']){
         function validate($data){
